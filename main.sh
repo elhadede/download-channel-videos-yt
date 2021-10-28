@@ -1,0 +1,1 @@
+youtube-dl -f "bestvideo[height>=720]+bestaudio/best" -ciw -o "%(title)s.%(ext)s" -v <url-of-channel>
